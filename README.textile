@@ -1,0 +1,11 @@
+h1. Publican
+
+An extension influenced by the similar "Layout Layer":http://github.com/freelancing-god/radiant-layout-layer, this one copies any public files for all extensions on every page load in development mode only.
+
+This is useful when you're developing other extensions which have public files (javascripts, stylesheets, etc), and you're regularly editing them and then have to run the rake task to update them _all_ the time.
+
+It's the equivalent of running @rake radiant:extensions:update_all@ before every request.
+
+h2. Who is Responsible?
+
+This extension was written by "Pat Allan":http://freelancing-gods. If you have questions, comments, suggestions, criticisms and/or patches, you can either email pat at freelancing-gods dot com, hassle him on "Twitter":http://twitter.com/pat, or send a message via "GitHub":http://github.com/freelancing-god.
